@@ -47,7 +47,7 @@ function App() {
     <div className="min-h-screen flex flex-col items-center bg-gradient-to-r from-gray-900 to-gray-700 text-white p-6">
       {/* Marquee for breaking news */}
       <marquee className="text-lg font-bold text-yellow-400 py-2 w-full">
-        🔥 Latest News Updates 🔥 🔥 Latest News Updates 🔥 🔥 Latest News Updates 🔥
+        🔥 Latest News Updates 🔥 |         🔥 Latest News Updates 🔥 |    🔥 Latest News Updates 🔥 |    Latest News Updates 🔥 
       </marquee>
 
       <h1 className="text-4xl font-extrabold mt-4">Today's News</h1>
@@ -89,8 +89,16 @@ function App() {
         ) : (
           <p className="text-gray-300 col-span-3 text-center">No news available</p>
         )}
+
+
+
       </div>
+      <footer className="w-full mt-auto py-4 bg-gray-800 text-center text-gray-400">
+  Designed & Developed with ❤️ by <span className="text-white font-semibold">Prabhat Yadav</span>
+</footer>
+
     </div>
+    
   );
 }
 
